@@ -1,0 +1,40 @@
+# Created by http://www.gitignore.io
+
+### C++ ###
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+### Project specific ###
+.libs/
+.deps/
+config.log
+config.status
+config.h
+autom4te.cache/
+Makefile
+stamp-h1
+src/json.cpp
+src/json.h
+src/lex.cpp
+src/lex.h
+test/jsonapitest
